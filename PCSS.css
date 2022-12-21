@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #F0F8FF; /* lys blågrøn */
+}
+
+header {
+  background-color: #7EA16B; /* aspargesgrøn */
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 5px; /* Ændr værdien af padding til 5px for at gøre header lavere */
+  margin-top: 160px; /* Ændr værdien af margin-top til 20px for at rykke header ned på siden */
+}
+
+
+header img {
+  height: 50px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav li {
+  margin: 0 10px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #90EE90; /* lysegrøn */
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+section {
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #7EA16B; /* aspargesgrøn */
+  color: white;
+  padding: 20px;
+}
+
+.fremvisning {
+  width: 200px;	
+  height: 270px;
+  border: 3px solid #3C5A14;
+}
+
+body {
+  font-family: Barlow Semi Condensed Regular, sans-serif;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+	position: absolute;
+    top: 0;
+}
+
+form {
+  position: absolute;
+    top: 80px;
+    Left: 500px;
+}
+
+input[type="text"] {
+  border-radius: 5px; /* giver bløde afrundet hjørner */
+}
+
+button[type="submit"] {
+  border-radius: 5px; /* giver bløde afrundet hjørner */
+}
+
+.menu-knap {
+  display: block;
+  padding: 7px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #11270B;
+  width: 100px;
+  height: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s; /* giver en glidende overgang ved hover */
+}
+
+#indkøbskurv {
+	position: absolute;
+    top: 70px;
+	right: 10px;
+	}
+
